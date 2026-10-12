@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recipes | Tasty Bites</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo">Tasty<span>Bites.</span></a>
+
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="recipe.html" class="active">Recipes</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Page Heading -->
+        <section class="page-banner">
+            <p class="eyebrow">EXPLORE OUR KITCHEN</p>
+            <h1>Our Delicious <span>Recipes</span></h1>
+            <p>Find something delicious to cook today.</p>
+        </section>
+
+        <!-- Recipe Search -->
+        <section class="section">
+            <div class="search-wrapper">
+    <input
+        type="search"
+        id="recipeSearch"
+        class="search-input"
+        placeholder="Search recipes..."
+        aria-label="Search recipes">
+
+   <button type="button" id="searchButton" aria-label="Search recipes">
+    &#8981;
+</button>
+</div>
+
+
+            <!-- Recipe Cards -->
+            <div class="recipe-grid" id="recipeGrid">
+
+                <article class="recipe-card">
+                    <img
+                        src="https://cdn.mygingergarlickitchen.com/images/800px/800px-garlic-bread-5.jpg"
+                        alt="Garlic Bread">
+
+                    <div class="card-content">
+                        <p class="category-label">ITALIAN</p>
+                        <h3>Garlic Bread</h3>
+                        <p class="card-description">
+                            Crispy bread topped with garlic butter and herbs.
+                        </p>
+                        <a href="recipe-detail.html" class="card-link">
+                            View Recipe &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <article class="recipe-card">
+                    <img
+                        src="https://www.wenthere8this.com/wp-content/uploads/2023/05/spicy-chicken-pasta-7.jpg"
+                        alt="Macaroni">
+
+                    <div class="card-content">
+                        <p class="category-label">FAST FOOD</p>
+                        <h3>Macaroni</h3>
+                        <p class="card-description">
+                            Delicious macaroni cooked with cheese and creamy sauce.
+                        </p>
+                        <a href="recipe-detail.html" class="card-link">
+                            View Recipe &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <article class="recipe-card">
+                    <img
+                        src="https://www.tablefortwoblog.com/wp-content/uploads/2023/11/cajun-chicken-alfredo-recipe-tablefortwoblog-9-scaled.jpg"
+                        alt="Chicken Alfredo">
+
+                    <div class="card-content">
+                        <p class="category-label">HEALTHY</p>
+                        <h3>Chicken Alfredo</h3>
+                        <p class="card-description">
+                            Creamy pasta with tender chicken and parmesan cheese.
+                        </p>
+                        <a href="recipe-detail.html" class="card-link">
+                            View Recipe &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <article class="recipe-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80"
+                        alt="Cheesy pizza">
+
+                    <div class="card-content">
+                        <p class="category-label">ITALIAN</p>
+                        <h3>Cheesy Pizza</h3>
+                        <p class="card-description">
+                            A classic favourite with delicious toppings.
+                        </p>
+                        <a href="recipe-detail.html" class="card-link">
+                            View Recipe &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <article class="recipe-card">
+                    <img
+                        src="https://www.spendwithpennies.com/wp-content/uploads/2021/12/Dessert-Nachos-SpendWithPennies-13.jpg"
+                        alt="Sweet dessert">
+
+                    <div class="card-content">
+                        <p class="category-label">DESSERT</p>
+                        <h3>Sweet Dessert</h3>
+                        <p class="card-description">
+                            A sweet treat for a special moment.
+                        </p>
+                        <a href="recipe-detail.html" class="card-link">
+                            View Recipe &rarr;
+                        </a>
+                    </div>
+                </article>
+
+                <article class="recipe-card">
+                    <img
+                        src="https://www.datocms-assets.com/138735/1727983594-veganonepotspicyarrabiatapastarecipeh1x.jpg"
+                        alt="Healthy food bowl">
+
+                    <div class="card-content">
+                        <p class="category-label">HEALTHY</p>
+                        <h3>Healthy Bowl</h3>
+                        <p class="card-description">
+                            A fresh and satisfying everyday meal.
+                        </p>
+                        <a href="recipe-detail.html" class="card-link">
+                            View Recipe &rarr;
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+            <p id="noResults" class="no-results" hidden>
+                No recipes found. Try another search.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="index.html" class="logo">Tasty<span>Bites.</span></a>
+        <p>Discover. Cook. Enjoy.</p>
+        <p class="copyright">
+            &copy; 2026 Tasty Bites. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
